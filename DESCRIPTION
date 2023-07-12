@@ -3,7 +3,7 @@ Title: Segmentation Approaches in Chemometrics
 Version: 0.0.0.9000
 Authors@R: c(person("Elia", "Gonzato", role = c("aut", "cre","cph"), email="elia.gonzato@outlook.it"))
 Maintainer: Elia Gonzato <elia.gonzato@outlook.it>
-Description: Evaluation of prediction performance of smaller regions of spectra for chemometrics. Segmentation of spectra, evolving dimensions regions and sliding windows as selection methods. Election of the best model among those computed based on error metrics. Chen, J. (2017) <https://doi.org/10.1007/s00216-017-0218-9>.
+Description: Evaluation of prediction performance of smaller regions of spectra for Chemometrics. Segmentation of spectra, evolving dimensions regions and sliding windows as selection methods. Election of the best model among those computed based on error metrics. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -12,3 +12,5 @@ Imports: ggplot2, mdatools, readr, tidyverse, stringr, grDevices, dplyr, tidyr
 LazyData: true
 Depends: 
     R (>= 2.10)
+URL: https://github.com/egonzato/windows.pls
+BugReports: https://github.com/egonzato/windows.pls/issues
