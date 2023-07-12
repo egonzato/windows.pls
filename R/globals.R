@@ -1,0 +1,1 @@
+utils::globalVariables(c("Component", "R2", "RMSE","nm","value"))
