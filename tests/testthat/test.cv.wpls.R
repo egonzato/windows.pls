@@ -1,6 +1,6 @@
 library(testthat);
 context("Cross-validation Window pls testing");
-source("cv.wpls.R");
+source("C:\\Users\\Elia Gonzato\\Desktop\\windows.pls\\R\\cv.wpls.R");
 
 
 data("beer")

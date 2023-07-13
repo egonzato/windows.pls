@@ -1,6 +1,6 @@
 library(testthat);
 context("Converting names to valid syntax testing");
-source("convert.names.wl.R");
+source("C:\\Users\\Elia Gonzato\\Desktop\\windows.pls\\R\\convert.names.wl.R");
 
 
 data("beer")
