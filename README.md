@@ -45,7 +45,7 @@ are improvements. In this package there are three possible modes:
 You can install the development version of windows.pls like so:
 
 ``` r
-install.packages("windows.pls")
+install_github("egonzato/windows.pls")
 ```
 
 ## Example
