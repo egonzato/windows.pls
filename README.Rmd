@@ -36,7 +36,7 @@ For years now, researchers have been questioning if spectra in its entirety coul
 You can install the development version of windows.pls like so:
 
 ``` r
-install.packages("windows.pls")
+install_github("egonzato/windows.pls")
 ```
 
 ## Example

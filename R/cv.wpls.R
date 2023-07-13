@@ -215,7 +215,7 @@ cv.wpls=function(xblock=NULL,
   metrics.cal=list('rmse.cal'=perf.rmse.cal,'r2.cal'=perf.r2.cal)
   ## create object that contains rmse and r2 results
   metrics=list('xblock'=xblock,
-               'ybock'=yblock,
+               'yblock'=yblock,
                'cal'=metrics.cal,
                'cv'=metrics.cv,
                'windows'=window.index,
