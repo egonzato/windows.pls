@@ -47,5 +47,4 @@ global.rmse(mywpls,col.cal='navy',
                col.strip.background='orange',
                xlab='Component',
                ylab='RMSE')
-
 }

@@ -24,8 +24,6 @@
 #' mywpls=cv.wpls(sp, conc,mode='wpls', windows = 5)
 #' best.pls=sel.best.window(mywpls)
 
-
-
 sel.best.window=function(wpls=NULL){
   ncp.old=wpls[[6]]
   scale.old=wpls[[7]]

@@ -29,7 +29,6 @@
 #'                col.strip.background='orange',
 #'                xlab='Component',
 #'                ylab=expression(R^2))
-#'
 
 global.r2=function(wpls=NULL,
                         col.cal='blue',

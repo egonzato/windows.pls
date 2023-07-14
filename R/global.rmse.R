@@ -29,7 +29,6 @@
 #'                col.strip.background='orange',
 #'                xlab='Component',
 #'                ylab='RMSE')
-#'
 
 global.rmse=function(wpls=NULL,
                           col.cal='blue',
