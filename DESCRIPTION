@@ -12,8 +12,7 @@ License: MIT + file LICENSE
 URL: https://github.com/egonzato/windows.pls
 BugReports: https://github.com/egonzato/windows.pls/issues
 Depends: 
-    R (>= 2.10),
-    tidyverse
+    R (>= 2.10)
 Imports: 
     dplyr, 
     ggplot2,
@@ -21,7 +20,8 @@ Imports:
     mdatools,
     readr,
     stringr,
-    tidyr
+    tidyr,
+    tidyverse
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
