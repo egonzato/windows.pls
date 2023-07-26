@@ -24,10 +24,9 @@ which aims at dividing spectra in windows, which are used in PLS as
 predictors and then compared to the complete spectra, to see if there
 are improvements. In this package there are three possible modes:
 
-- **wpls**, which stands for *Windows Window PLS*, divides the original
-  spectra into several windows, computes PLS and stores metrics of
-  interest such as RMSE and R2 for calibration and cross-validation
-  both.
+- **wpls**, which stands for *Windows PLS*, divides the original spectra
+  into several windows, computes PLS and stores metrics of interest such
+  as RMSE and R2 for calibration and cross-validation both.
 
 - **ewpls**, which stands for *Evolving Window PLS*, divides the
   original spectra into several windows, but each new window
