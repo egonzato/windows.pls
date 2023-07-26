@@ -24,7 +24,7 @@ This technology is widely used because of the fact that it is quick and green, w
 
 For years now, researchers have been questioning if spectra in its entirety could be less useful than selecting only smaller regions which might produce better predictions. From this, the intent of this package, which aims at dividing spectra in windows, which are used in PLS as predictors and then compared to the complete spectra, to see if there are improvements. In this package there are three possible modes:
 
-* **wpls**, which stands for *Windows Window PLS*, divides the original spectra into several windows, computes PLS and stores metrics of interest such as RMSE and R2 for calibration and cross-validation both.
+* **wpls**, which stands for *Windows PLS*, divides the original spectra into several windows, computes PLS and stores metrics of interest such as RMSE and R2 for calibration and cross-validation both.
 
 * **ewpls**, which stands for *Evolving Window PLS*, divides the original spectra into several windows, but each new window incorporates the previous ones, so that we are comparing smaller windows with the entire spectra.
 
