@@ -69,7 +69,7 @@ map.spectra.gradient(spectra,conc)
 <img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
 
 Now, let’s suppose we would like to test three different windows, how
-would those look?
+would those look like?
 
 ``` r
 segment.windows(spectra, conc, windows = 3)

@@ -57,7 +57,7 @@ Let's plot our specta mapping them with respect to the associated concentration:
 map.spectra.gradient(spectra,conc)
 ```
 
-Now, let's suppose we would like to test three different windows, how would those look? 
+Now, let's suppose we would like to test three different windows, how would those look like? 
 
 ```{r}
 segment.windows(spectra, conc, windows = 3)
