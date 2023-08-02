@@ -1,7 +1,3 @@
-library(testthat);
-source("C:\\Users\\Elia Gonzato\\Desktop\\windows.pls\\R\\convert.names.wl.R");
-
-
 data("beer")
 conc=unlist(beer[,1])
 spectra=beer[,2:ncol(beer)]
