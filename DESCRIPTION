@@ -1,6 +1,6 @@
 Package: windows.pls
 Title: Segmentation Approaches in Chemometrics
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person("Elia", "Gonzato", , "elia.gonzato@outlook.it", role = c("aut", "cre", "cph"))
 Maintainer: Elia Gonzato <elia.gonzato@outlook.it>

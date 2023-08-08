@@ -68,7 +68,7 @@ cv.wpls=function(xblock=NULL,
                  window.size=30,
                  increment=10,
                  cv=10,
-                 scale=F,
+                 scale=FALSE,
                  ncp=10,
                  mode='wpls'){
   if( !(mode%in% c('wpls','ewpls','swpls'))){stop('Mode not available')}
