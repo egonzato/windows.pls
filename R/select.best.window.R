@@ -16,7 +16,7 @@
 #' @import tidyr
 #' @export
 #' @examples
-#' #' data(beer)
+#' data(beer)
 #' conc=beer[,1]
 #' sp=beer[,2:ncol(beer)]
 #' names(sp)=convert.names.wl(1100,2250,2)

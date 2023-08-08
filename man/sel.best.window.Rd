@@ -18,7 +18,7 @@ with cv.wpls and selects the best basing on the lowest RMSE available; then comp
 PLS and gives as output an object containing results.
 }
 \examples{
-#' data(beer)
+data(beer)
 conc=beer[,1]
 sp=beer[,2:ncol(beer)]
 names(sp)=convert.names.wl(1100,2250,2)
