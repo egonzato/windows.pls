@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-[![](https://www.r-pkg.org/badges/version/window.pls?color=green)](https://cran.r-project.org/package=window.pls)
+[![](https://img.shields.io/badge/devel%20version-0.1.0-green.svg)](https://github.com/window.pls)
 [![](http://cranlogs.r-pkg.org/badges/grand-total/windows.pls?color=blue)](https://cran.r-project.org/package=windows.pls)
 
 <!-- badges: end -->
