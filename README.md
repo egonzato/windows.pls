@@ -4,6 +4,10 @@
 # windows.pls
 
 <!-- badges: start -->
+
+[![](https://www.r-pkg.org/badges/version/window.pls?color=green)](https://cran.r-project.org/package=window.pls)
+[![](http://cranlogs.r-pkg.org/badges/grand-total/windows.pls?color=blue)](https://cran.r-project.org/package=windows.pls)
+
 <!-- badges: end -->
 
 Since spectra have been used to investigate the content of a sample,
@@ -53,6 +57,7 @@ This is a basic example which shows you how to use this package:
 
 ``` r
 library(windows.pls)
+#> Warning: il pacchetto 'windows.pls' è stato creato con R versione 4.3.1
 data("beer")
 conc=unlist(beer[,1])
 spectra=beer[,2:ncol(beer)]
@@ -66,7 +71,7 @@ concentration:
 map.spectra.gradient(spectra,conc)
 ```
 
-<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-3-1.png" width="80%" />
 
 Now, let’s suppose we would like to test three different windows, how
 would those look like?
@@ -75,7 +80,7 @@ would those look like?
 segment.windows(spectra, conc, windows = 3)
 ```
 
-<img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-4-1.png" width="80%" />
 
 Now, we should divide our dataset into training and testing:
 
@@ -101,7 +106,7 @@ calibration and cross-validation for each of them, in a single window:
 global.rmse(mywpls)
 ```
 
-<img src="man/figures/README-unnamed-chunk-6-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-7-1.png" width="80%" />
 
 In this case, the second model, which refers to the first window, has
 the lowest value in cross-validation, so we can select that model and
@@ -118,4 +123,4 @@ We can also plot spectra highlighting the selected window:
 map.best.window(mywpls)
 ```
 
-<img src="man/figures/README-unnamed-chunk-8-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-9-1.png" width="80%" />

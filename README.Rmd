@@ -4,18 +4,25 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r, include = FALSE}
+```{r, include = FALSE, message=FALSE, warning=FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
   fig.path = "man/figures/README-",
-  out.width = "100%"
+  out.width = "80%"
 )
 ```
 
 # windows.pls
 
 <!-- badges: start -->
+```{r,echo = FALSE, results='asis',warning=FALSE, message=FALSE}
+library(badger)
+cat(
+    badge_cran_release(pkg='window.pls', "green"),
+    badge_cran_download(pkg='windows.pls','grand-total',color='blue'))
+```
+
 <!-- badges: end -->
 
 Since spectra have been used to investigate the content of a sample, Chemometrics, the field which studies how mathematical and statistical methods can be applied to Chemistry, has been developing several models that are useful to predict concentration of substances of interest. 
